@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.ccdt.debug.core.cocosLaunchConfigType">
+<mapAttribute key="argument_map">
+<mapEntry key="androidruntime" value="runtime/android/PrebuiltRuntimeJs.apk"/>
+<mapEntry key="host" value="127.0.0.1"/>
+<mapEntry key="iosSimulatorFamily" value="iPhone-4s, 7.1"/>
+<mapEntry key="iosruntime" value="runtime/ios/PrebuiltRuntimeJs.app"/>
+<mapEntry key="macruntime" value="runtime/mac/PrebuiltRuntimeJs.app"/>
+<mapEntry key="project" value="CocosJSGame"/>
+<mapEntry key="remotePlatform" value="Android"/>
+</mapAttribute>
+<stringAttribute key="connector_id" value="jsbinding.mac.attach.connector"/>
+</launchConfiguration>

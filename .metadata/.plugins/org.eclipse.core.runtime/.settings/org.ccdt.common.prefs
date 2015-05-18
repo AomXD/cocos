@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+org.ccdt.common.ant_path=/Applications/Cocos/tools/ant
+org.ccdt.common.jdk_path=/Applications/Cocos/Cocos Code IDE.app/jdk/bin
+org.ccdt.common.js_engine_custompath=/Users/xiaodi/Downloads/cocos2d-js-v3.3
+org.ccdt.common.js_engine_path=/Users/xiaodi/Downloads/cocos2d-js-v3.3
+org.ccdt.common.lua_engine_path=/Applications/Cocos/frameworks/cocos2d-x
+org.ccdt.common.python_path=/usr/bin

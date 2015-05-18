@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry kind="src" path=""/>
+	<buildpathentry external="true" kind="lib" path="/Users/xiaodi/Documents/quick-3.3/2dx-3.2-api"/>
+	<buildpathentry external="true" kind="lib" path="/Users/xiaodi/Documents/quick-3.3/quick-3.0alpha3-api"/>
+</buildpath>

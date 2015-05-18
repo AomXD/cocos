@@ -1,25 +1,26 @@
 
 -- 0 - disable debug info, 1 - less debug info, 2 - verbose debug info
-DEBUG = 1
+DEBUG = 2
 
--- display FPS stats on screen
-DEBUG_FPS = true
+-- use framework, will disable all deprecated API, false - use legacy API
+CC_USE_FRAMEWORK = true
 
--- dump memory info every 10 seconds
-DEBUG_MEM = false
+-- show FPS on screen
+CC_SHOW_FPS = true
 
--- load deprecated API
-LOAD_DEPRECATED_API = false
+-- disable create unexpected global variable
+CC_DISABLE_GLOBAL = true
 
--- load shortcodes API
-LOAD_SHORTCODES_API = true
-
--- screen orientation
-CONFIG_SCREEN_ORIENTATION = "landscape"
-
--- design resolution
-CONFIG_SCREEN_WIDTH  = 960
-CONFIG_SCREEN_HEIGHT = 640
-
--- auto scale mode
-CONFIG_SCREEN_AUTOSCALE = "FIXED_HEIGHT"
+-- for module display
+CC_DESIGN_RESOLUTION = {
+    width = 960,
+    height = 640,
+    autoscale = "FIXED_HEIGHT",
+    callback = function(framesize)
+        local ratio = framesize.width / framesize.height
+        if ratio <= 1.34 then
+            -- iPad 768*1024(1536*2048) is 4:3 screen
+            return {autoscale = "FIXED_WIDTH"}
+        end
+    end
+}
